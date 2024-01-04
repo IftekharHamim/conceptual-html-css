@@ -29,15 +29,12 @@
      margin-right: auto;
      margin-top: 60px; */
      /* margin-bottom: 60px; */
+     background: linear-gradient(15deg, pink,blue);
      margin: 60px auto;
-     background: rgb(126,227,227);
      padding: 60px;
-     border-width: 5px;
-     border-color: red;
-     border-style: outset;
 }
 
-.article h2{
+.article h2, #cow_type{
      text-align: center;
      font-size: 48px;
      border-bottom: 2px ridge whitesmoke;
@@ -53,4 +50,16 @@
      font-size: 25px;
      background: yellow;
      width: 700px;
+}
+.cow_images{
+     display: flex;
+     gap: 20px;
+     justify-content: space-between;
+     align-items: center;
+}
+.cow_images div{
+     width: 300px;
+}
+.cow_images img{
+     width: 100%;
 }
